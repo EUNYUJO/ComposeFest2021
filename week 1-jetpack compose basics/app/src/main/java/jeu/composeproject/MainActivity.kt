@@ -78,8 +78,6 @@ private fun OnboardingScreen(onContinueClicked: () -> Unit){
          }
      }
  }
-
-
  @Composable
  private fun Greeting(name: String) {
      Card(
@@ -144,8 +142,6 @@ private fun OnboardingScreen(onContinueClicked: () -> Unit){
      uiMode = Configuration.UI_MODE_NIGHT_YES,
      name = "DefaultPreviewDark"
  )
-
-
  @Preview(showBackground = true, widthDp = 320)
  @Composable
  fun DefaultPreview() {
@@ -153,7 +149,6 @@ private fun OnboardingScreen(onContinueClicked: () -> Unit){
          Greetings()
      }
  }
-
 
  @Preview(showBackground = true, widthDp = 320, heightDp = 320)
  @Composable
